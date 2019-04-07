@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IMDB Lite</string>
+    <string name="movie_name">movie name</string>
+    <string name="genre">Genre:</string>
+    <string name="_8_7">8.7</string>
+    <string name="fantasy_thriller_action">Fantasy, Thriller, Action</string>
+    <string name="_2006">2006</string>
+    <string name="imdb">IMDB</string>
+</resources>

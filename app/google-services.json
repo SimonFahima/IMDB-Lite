@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1080009507206",
+    "firebase_url": "https://imdb-lite.firebaseio.com",
+    "project_id": "imdb-lite",
+    "storage_bucket": "imdb-lite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080009507206:android:aa49a6ee8a0387d9",
+        "android_client_info": {
+          "package_name": "com.company.simon.imdblite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUKxQOcH9LeW8oOZbLZ6mP7O9YxL8SLbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080009507206-im5a6aj9btu1sm659t4uh5s5ovf5gpsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/darkGray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lite"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/txtImdb"
+            android:layout_alignEnd="@+id/txtImdb"
+            android:layout_marginRight="60dp"
+            android:id="@+id/txtLite"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtImdb"
+            android:text="IMDB"
+            android:textColor="@color/yellow"
+            android:fontFamily="sans-serif"
+            android:textSize="100sp"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/yellow"
+            android:theme="@style/AppTheme"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:id="@+id/progressBar"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
